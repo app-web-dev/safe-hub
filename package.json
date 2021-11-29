@@ -6,13 +6,6 @@
   "engines": {
     "node": "16.13.0"
   },
-  "scripts": {
-    "start": "node quickstart/server/index.js",
-    "build": "npm-run-all build:*",
-    "build:quickstart": "browserify quickstart/src/index.js > quickstart/public/index.js",
-    "clean": "npm-run-all clean:*",
-    "clean:quickstart": "rimraf quickstart/public/index.js"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/twilio/video-quickstart-js.git"
